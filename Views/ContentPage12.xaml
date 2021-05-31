@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage12">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="Gorky Park" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-gorky-park.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="Named after the famous Russian writer Maxim Gorky (who was nominated for the Nobel Prize in Literature five times but never won it) and sitting right across the Moskva River, Gorky Park covers 120 hectares of beautiful ponds and green spaces."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

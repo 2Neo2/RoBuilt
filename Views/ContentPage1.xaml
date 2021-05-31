@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="Kremlin" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-gum.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="Moscow's most recognizable structure is without a doubt the Kremlin, a 15th-century fortified complex that covers an area of 275,000 square meters surrounded by walls built in the 1400s. The Grand Kremlin Palace-which has over 700 rooms-was once home to the Tsar family and is now the official residence of the president of the Russian Federation, although most heads of state choose to reside elsewhere."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

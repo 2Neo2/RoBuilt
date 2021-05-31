@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.AccountPage"
+    xmlns:local="clr-namespace:RoBuilt.Views"
+    Title = "OwnAccount">
+    <FlyoutItem Title="Menu">
+        <ShellContent Title="Frineds" ContentTemplate="{DataTemplate local:FriendsPage}"/>
+        <ShellContent Title="Meetiings" ContentTemplate="{DataTemplate local:MeetingPage}"/>
+        <ShellContent Title="Progress" ContentTemplate="{DataTemplate local:ProgressPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Go to Main Menu">
+        <ShellContent Title="Main Menu" ContentTemplate="{DataTemplate local:MapPage}"/>
+    </FlyoutItem>
+</Shell>

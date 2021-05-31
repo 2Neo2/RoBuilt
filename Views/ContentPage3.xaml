@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="GUM" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-gum.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="Moscow's oldest and most upscale shopping center is an architectural marvel. GUM (short for Glávnyj Universálnyj Magazín or (Main Universal Store) was built in the late 1800s in neo-Russian style to showcase a beautiful mix of a steel skeleton and 20,000 panels of glass forming an arched roof."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

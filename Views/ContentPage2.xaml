@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="Bolshoi Theatre" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-bolshoi-theatre.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="The Bolshoi Theater is home to the largest and one of the oldest ballet and opera companies in the world. While the theater has undergone several major renovations over the past century-including a recent one in 2011 to restore some of the imperial architectural details-it still retains all of its Neoclassical grandeur."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

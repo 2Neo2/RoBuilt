@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:RoBuilt.Views"
+       Title="RoBuilt"
+       x:Class="RoBuilt.AppShell">
+    <FlyoutItem Title="Map">
+        <ShellContent Title="Map" ContentTemplate="{DataTemplate local:MapPage}"/>
+        <ShellContent Title="Public Rating Place" ContentTemplate="{DataTemplate local:PublicPlaceRatingPapge}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Account">
+        <ShellContent Title="Account" ContentTemplate="{DataTemplate local:OwnAcountPage}"/>
+    </FlyoutItem>
+</Shell>

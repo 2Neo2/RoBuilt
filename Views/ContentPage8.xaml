@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage8">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="Moscow State Integrated Museum-Reserve" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-moscow-state-integrated-museum-reserve.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="The Moscow State Integrated Art and Historical Architectural and Natural Landscape Museum-Reserve is a cultural open-air museum complex comprised of four different historical sites."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

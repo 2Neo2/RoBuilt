@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.MeetingPage"
+    Title="Meeting">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout HorizontalOptions="Center" Padding="30, 30, 30, 30">
+                    <Label Text="Make an appointment:" FontSize="35" Margin="0,0,0,20"/>
+                    <Entry x:Name = "datePlaceHolder" Placeholder="Data"/>
+                    <Entry x:Name = "timePlaceHolder" Placeholder="Time"/>
+                    <Entry x:Name = "placePlaceHolder" Placeholder="Place" Margin="0,0,0,15"/>
+                    <Button x:Name="button_request" Text="Send" WidthRequest="100" Clicked="button_request_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"  HorizontalOptions="Center">
+                    <Label Text="Your meetings:" FontSize="35"/>
+                 </StackLayout>
+                <StackLayout>
+                    <ListView x:Name = "items" ItemsSource="{Binding MyMeeting}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Detail="{Binding DateTime}" Text="{Binding Place}"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage4">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="Lenin's Mausoleum" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-lenins-mausoleum.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="Lenin's Mausoleum, the final resting place of Soviet leader Vladimir Lenin, occupies a central spot in Red Square. His body has been in the mausoleum since his death in 1924-and although the original plan was for him to be buried after a short period of public display for mourning, the plan quickly changed."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps" 
+    x:Class="RoBuilt.Views.MapPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Entry Placeholder="Search" TextColor="DarkGray" FontSize="Small" WidthRequest="150"/>
+                                <Button x:Name="button_Search" Text="Search" TextColor="Orange" Clicked="button_Search_Clicked" HeightRequest="10" BackgroundColor="White" WidthRequest="100" FontAttributes="Bold" FontSize="Small"/>
+                </StackLayout>
+                <maps:Map x:Name="map"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

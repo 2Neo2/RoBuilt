@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.DataPage">
+    <StackLayout BackgroundColor="#e6e6e6">
+        <Grid>
+            <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                <Frame HeightRequest="150" BackgroundColor="HotPink" Padding="0" Margin="0">
+                    <Image Source="https://images.fineartamerica.com/images-medium-large-5/awesome-solitude-bess-hamiti.jpg" Aspect="AspectFill" Margin="0"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">
+                <Frame  BackgroundColor="White" HeightRequest="500" HasShadow="True" Padding="0" Margin="0">
+
+                    <StackLayout>
+
+
+                        <StackLayout Margin="10,15,0,10">
+                            <Label Text="RoBuilt" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="60"/>
+                        </StackLayout>
+
+                        <StackLayout Padding="0" Margin="15,10">
+
+                            
+                                <StackLayout Orientation="Horizontal">
+                                    
+                                    <Entry x:Name="userName" Placeholder="UserName" HorizontalOptions="FillAndExpand" Margin="0,0,10,0"></Entry>
+                                    
+                                </StackLayout>
+                            
+
+                                <StackLayout Orientation="Horizontal">
+                                    
+                                    <Entry x:Name ="userPassword" Placeholder="Password" IsPassword="True" HorizontalOptions="FillAndExpand" Margin="0,0,10,0"></Entry>
+                                    
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" Margin="0,0,0,15">
+                                    
+                                    <Entry x:Name ="userPasswordRepeat" Placeholder="Repeat Password" IsPassword="True" HorizontalOptions="FillAndExpand" Margin="0,0,10,0"></Entry>
+                                    
+                                </StackLayout>
+                            
+
+                            
+
+                            <Button x:Name="button_SignIn" Text="SIGN IN" Clicked="button_SignIn_Clicked" BackgroundColor="Orange" TextColor="White" CornerRadius="30"/>
+                            <StackLayout Orientation="Horizontal" Margin="0,15">
+                                <Label Text="Esceptions:"/>
+                                <Label x:Name="label_exception"/>
+                            </StackLayout>
+                            
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

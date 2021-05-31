@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage5">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="Red Square" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-red-square-cathedral.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="All of Moscow's main streets start at Red Square, so it's easy to see why this is considered the heart of the city. A massive space of 330 meters by 70 meters, the square is flanked by the Kremlin, Lenin's Mausoleum, two cathedrals, and the State Historical Museum. In 1945, a massive Victory Parade was held here to celebrate the defeat of Nazi Germany by the Soviet Armed Forces."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

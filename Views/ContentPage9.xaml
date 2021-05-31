@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage9">
+    <ContentPage.Content>
+         <StackLayout>
+            <Label HorizontalOptions="Center" Text="Tretyakov Gallery" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-tretyakov-gallery.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="The largest collection of Russian art in the world sits here, with over 180,000 paintings, sculptures, and religious art dating back to over a millennia ago. The gallery, built using beautiful red and white colors from classical Russian architecture, is located near the Kremlin and it was built in the early 20th century."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

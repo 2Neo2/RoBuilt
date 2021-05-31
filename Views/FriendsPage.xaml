@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.FriendsPage"
+    Title="Friends Page">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Padding="10, 10, 10, 10">
+                                <Entry Placeholder="Search" TextColor="DarkGray" FontSize="Small" WidthRequest="300"/>
+                                <Button x:Name="ButtonSearch" Text="Search" TextColor="Orange" Clicked="ButtonSearch_Clicked" HeightRequest="10" BackgroundColor="White" WidthRequest="100" FontAttributes="Bold" FontSize="Small"/>
+                </StackLayout>
+                <StackLayout>
+                    <ListView x:Name = "items" ItemsSource="{Binding MyFriend}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding FullName}"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+
+        
+        
+    
+</ContentPage>
+ 

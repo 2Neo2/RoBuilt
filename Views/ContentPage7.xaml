@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RoBuilt.Views.ContentPage7">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="Moscow Metro" FontSize="60" Margin="0,0,0,10"/>
+            <Image Source="https://www.planetware.com/wpimages/2019/10/russia-moscow-top-attractions-moscow-metro.jpg" Margin="0,0,0,10" Aspect="Fill" HeightRequest="250"/>
+            <Label FontSize="20" Text="Riding the Moscow metro is an experience all in itself, but even just heading underground to walk through the stations is something no visitor should miss. With 223 stations and 12 metro lines crosscutting through Moscow, however, this can be tricky, so visiting at least a few of the most impressive ones is a good start."/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
